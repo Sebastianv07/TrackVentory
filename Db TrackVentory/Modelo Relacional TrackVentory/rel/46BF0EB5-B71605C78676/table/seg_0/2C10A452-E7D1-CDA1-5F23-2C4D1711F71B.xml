@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2C10A452-E7D1-CDA1-5F23-2C4D1711F71B" name="VENTAS">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-09 13:16:36 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_VENTA" id="061F7988-68FF-0C7B-8598-41574EAB6707">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-09 13:17:01 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_USUARIO" id="5263B1F0-0CDD-7FF7-8ABD-444D9CCCC8D8">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-09 13:20:05 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C617E81B-554C-7EEE-A87E-09B08DE5F360" referredColumn="F600CF61-F2B1-9EAA-A0B9-5035E0CC526F"/>
+</associations>
+</Column>
+<Column name="FECHA" id="C981FE00-EECB-97E4-9281-E43FF98BDD70">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-09 13:20:20 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="30997A25-BF19-A607-E12C-041B7AAC9E39" name="VENTAS_PK">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-09 13:17:01 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="061F7988-68FF-0C7B-8598-41574EAB6707"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3611AB4F-543F-997C-C302-94EED827D772" name="FK_VENTAS_USUARIOS">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-13 06:12:51 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5263B1F0-0CDD-7FF7-8ABD-444D9CCCC8D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

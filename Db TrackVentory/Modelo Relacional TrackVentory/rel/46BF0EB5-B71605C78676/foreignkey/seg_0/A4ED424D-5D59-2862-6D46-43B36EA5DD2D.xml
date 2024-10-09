@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A4ED424D-5D59-2862-6D46-43B36EA5DD2D" containerWithKeyObject="135010BA-939B-E97C-4E35-858F71B9C2DE" localFKIndex="C828FBD3-A9DE-1F86-7182-C75E43C63092" name="FK_INVENTARIOS_VARIACION_PRODUCTOS">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-13 06:10:30 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<referredTableLongName>VARIACION_PRODUCTOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D956C411-2B2C-8D26-89D0-AEFF1B14379A</referredTableID>
+<keyObject>FB74E541-8C81-4F90-ABC5-38A19AD4A210</keyObject>
+<referredKeyID>FB74E541-8C81-4F90-ABC5-38A19AD4A210</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

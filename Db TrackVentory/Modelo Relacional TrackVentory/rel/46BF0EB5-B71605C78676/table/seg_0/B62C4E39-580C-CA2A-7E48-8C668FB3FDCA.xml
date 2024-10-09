@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B62C4E39-580C-CA2A-7E48-8C668FB3FDCA" name="ROLES">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-13 05:39:53 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ROL" id="BFADA67A-E5E2-9575-0FF7-1A0C84F1A5FA">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-13 05:40:11 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="B3C618E0-66C8-7DBC-1DF8-2928FCDB386E">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-13 05:40:31 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CDAC0A02-8300-74F1-E545-2990A2B14BE0" name="ROLES_PK">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-13 05:40:11 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BFADA67A-E5E2-9575-0FF7-1A0C84F1A5FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

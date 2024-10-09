@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B642E9AA-9973-6AD7-6558-305E9A9682E6" containerWithKeyObject="7AFD477E-2CDB-94B2-1D03-6872C8A2C60D" localFKIndex="E1B11A2F-50E9-27BA-475C-E75FCED26E1C" name="FK_PERMISOS_PERFILES">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-13 18:44:33 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<referredTableLongName>PERFILES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2AD37D30-8DB6-DC18-A38D-E1140F4A0FFF</referredTableID>
+<keyObject>03DF62F3-A374-AB1D-2C32-697B2AB11BA7</keyObject>
+<referredKeyID>03DF62F3-A374-AB1D-2C32-697B2AB11BA7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_PERFIL</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0DFA6D53-59A7-529C-0F8F-F567E062C8AF" containerWithKeyObject="D956C411-2B2C-8D26-89D0-AEFF1B14379A" localFKIndex="61E7D683-F264-FE86-1926-A2557C89114E" name="FK_VARIACION_PRODUCTOS_COLORES">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-13 06:10:14 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<referredTableLongName>COLORES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>95DFA9E1-A56B-EE6C-248A-8D36F911ECD7</referredTableID>
+<keyObject>84247DBB-77E9-414E-DA7D-84E2C939C228</keyObject>
+<referredKeyID>84247DBB-77E9-414E-DA7D-84E2C939C228</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NOMBRE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

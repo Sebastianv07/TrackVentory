@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D956C411-2B2C-8D26-89D0-AEFF1B14379A" name="VARIACION_PRODUCTOS">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-13 05:44:51 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<ordsAlias>table_22</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_VARIACION_PRODUCTO" id="1EFE75F7-717E-021E-68D9-A80B2F35ACBD">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-13 05:45:40 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PRODUCTO" id="6341897C-0706-12F8-1A89-A061D3562C56">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-13 05:46:17 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20B94CE1-41DD-FF22-4C81-6A281001D494" referredColumn="4CC35A71-5735-4071-03A2-E869D6673668"/>
+</associations>
+</Column>
+<Column name="NOMBRE_COLOR" id="71034B18-5BE3-8A9A-43D5-5963A4913603">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-13 05:46:46 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0DFA6D53-59A7-529C-0F8F-F567E062C8AF" referredColumn="F09F92DC-DF10-5823-7377-B628C5BA56DD"/>
+</associations>
+</Column>
+<Column name="CODIGO_TAMANO" id="01BC3904-1BE4-4D42-669C-9FB58232611D">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-13 05:47:21 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6DAF2523-2BDB-7A2D-3D6D-878D4A1C7AAC" referredColumn="37A35E99-D3E3-E2F1-3B58-B632E62EBDB0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB74E541-8C81-4F90-ABC5-38A19AD4A210" name="VARIACION_PRODUCTOS_PK">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-13 05:45:40 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1EFE75F7-717E-021E-68D9-A80B2F35ACBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B14D79A-C731-F155-FF37-0A5F0339F52E" name="FK_VARIACION_PRODUCTOS_PRODUCTOS">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-13 06:09:25 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6341897C-0706-12F8-1A89-A061D3562C56"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B0C4BD0B-E5E8-3CEA-4D27-E42673253DB4" name="FK_VARIACION_PRODUCTOS_TAMAÑOS">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-13 06:09:57 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01BC3904-1BE4-4D42-669C-9FB58232611D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="61E7D683-F264-FE86-1926-A2557C89114E" name="FK_VARIACION_PRODUCTOS_COLORES">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-13 06:10:14 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71034B18-5BE3-8A9A-43D5-5963A4913603"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

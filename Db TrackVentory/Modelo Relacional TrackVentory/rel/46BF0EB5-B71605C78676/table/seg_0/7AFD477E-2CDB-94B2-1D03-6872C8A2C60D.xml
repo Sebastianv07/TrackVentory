@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7AFD477E-2CDB-94B2-1D03-6872C8A2C60D" name="PERMISOS">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-13 05:40:35 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PERFIL" id="A43D061F-1C75-9486-8A76-BE37B9B58220">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-13 05:41:05 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B642E9AA-9973-6AD7-6558-305E9A9682E6" referredColumn="FF5A7AE0-58A1-6E9B-BD0A-E194C88985F6"/>
+</associations>
+</Column>
+<Column name="ID_FORMULARIO" id="10F14B20-7840-EF00-5871-AD257BE4F0FD">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-13 05:41:40 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AB794AC2-CAA4-B471-1129-A7F5BB16D3D4" referredColumn="E3881E0A-91AF-667C-7910-0D04AA816252"/>
+</associations>
+</Column>
+<Column name="CREAR" id="D0A6FB49-0092-FA03-25B6-B5461E341670">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-21 15:49:30 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BUSCAR" id="BF39B222-D15E-949C-C29B-8E92518131EC">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-21 15:49:54 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACTUALIZAR" id="613EE0B1-6C58-ED97-3330-9CD109A85021">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-21 15:49:54 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ELIMINAR" id="C2660FC2-DFFE-87A4-E109-F7DBA77F4A0A">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-21 15:49:54 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4414A6E7-EF48-8AEE-7023-AFE8C965ADAF" name="PERMISOS_PK">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-13 05:41:05 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A43D061F-1C75-9486-8A76-BE37B9B58220"/>
+<colUsage columnID="10F14B20-7840-EF00-5871-AD257BE4F0FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9CC77A60-833D-1FD2-9772-1E2A6A451066" name="FK_PERMISOS_FORMULARIOS">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-13 06:00:06 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10F14B20-7840-EF00-5871-AD257BE4F0FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1B11A2F-50E9-27BA-475C-E75FCED26E1C" name="FK_PERMISOS_PERFILES">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-13 18:44:33 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A43D061F-1C75-9486-8A76-BE37B9B58220"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

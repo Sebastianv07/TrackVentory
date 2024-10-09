@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="95DFA9E1-A56B-EE6C-248A-8D36F911ECD7" name="COLORES">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-09 02:29:54 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NOMBRE" id="F09F92DC-DF10-5823-7377-B628C5BA56DD">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-09 02:31:47 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HEX_COD" id="0AD13BBB-32BF-C1D7-6134-1F2A37DD8811">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-09 02:33:19 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="84247DBB-77E9-414E-DA7D-84E2C939C228" name="COLORES_PK">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-09 02:31:47 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F09F92DC-DF10-5823-7377-B628C5BA56DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

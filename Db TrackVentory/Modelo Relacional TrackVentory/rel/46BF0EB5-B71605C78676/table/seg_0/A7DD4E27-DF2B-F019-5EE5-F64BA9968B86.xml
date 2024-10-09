@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A7DD4E27-DF2B-F019-5EE5-F64BA9968B86" name="PRODUCTOS">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-09 01:10:01 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="REFERENCIA_PRODUCTO" id="4CC35A71-5735-4071-03A2-E869D6673668">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-09 01:17:05 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CATEGORIA_PRODUCTO" id="61577409-4FCC-C944-A8F3-15950B00FA29">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-09 02:20:05 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="154EABD0-43E9-D747-BEA2-36A9913E1FD0" referredColumn="CDC90B0B-D1CB-7C81-821E-76488DC251AB"/>
+</associations>
+</Column>
+<Column name="NOMBRE" id="2143ED9F-5F69-141B-83EF-2C9F2AADF137">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-09 01:17:50 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECIO_COMPRA" id="0E88A767-2680-3621-28A5-2E211258E842">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-09 01:20:21 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECIO_VENTA" id="E9B1B2A5-DF38-CB0B-96E7-B9EAE23B75A5">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-09 02:16:56 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C564638F-2A19-651F-2168-DF7ADC31465C" name="PRODUCTOS_PK">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-09 01:17:05 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CC35A71-5735-4071-03A2-E869D6673668"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF11EC47-CC56-99B3-38FF-E2501FCCC465" name="FK_PRODUCTOS_CATEGORIA_PRODUCTOS">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-13 06:08:57 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61577409-4FCC-C944-A8F3-15950B00FA29"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

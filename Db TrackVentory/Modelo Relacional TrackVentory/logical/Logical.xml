@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="42F68910-341A-8F49-7C44-1A4C69EEA643" mainViewID="8C8B625A-0C46-6787-EFC4-9AF8EC792949">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-09 00:49:45 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

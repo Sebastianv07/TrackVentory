@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="135010BA-939B-E97C-4E35-858F71B9C2DE" name="INVENTARIOS">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-09 14:04:35 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<ordsAlias>table_22</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_INVENTARIO" id="51A42AFD-14B3-210E-7454-1518A9EFE6EF">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-09 14:06:28 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_TIENDA" id="B6A7BA4E-88FD-B2D2-7198-A4792693E57D">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-13 05:50:39 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D7AAA5B-3DED-B3E5-E5FA-5F4C4DB5D74A" referredColumn="8E506460-4C04-1E49-E543-19235D801FDB"/>
+</associations>
+</Column>
+<Column name="ID_VARIACION_PROD" id="3D0EBCDA-7D58-5BDF-3640-B96B3096441C">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-09 14:05:32 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A4ED424D-5D59-2862-6D46-43B36EA5DD2D" referredColumn="1EFE75F7-717E-021E-68D9-A80B2F35ACBD"/>
+</associations>
+</Column>
+<Column name="STOCK" id="AC8B8B87-AB7D-B5C8-B2E2-EE1A75C75662">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-09 14:06:47 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1B408B38-1BA9-D026-BBB4-6A8EA613456E" name="INVENTARIOS_PK">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-09 14:05:32 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51A42AFD-14B3-210E-7454-1518A9EFE6EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C57411AC-41CE-2557-D3B6-E7B2F206828A" name="FK_INVENTARIOS_TIENDAS">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-13 06:06:39 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6A7BA4E-88FD-B2D2-7198-A4792693E57D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C828FBD3-A9DE-1F86-7182-C75E43C63092" name="FK_INVENTARIOS_VARIACION_PRODUCTOS">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-13 06:10:30 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D0EBCDA-7D58-5BDF-3640-B96B3096441C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

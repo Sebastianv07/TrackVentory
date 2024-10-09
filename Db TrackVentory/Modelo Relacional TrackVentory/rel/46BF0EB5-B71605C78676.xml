@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="46BF0EB5-C2F7-43A4-97AC-B71605C78676" mainViewID="79912091-7222-B105-F7E9-7BA1AC8B269E">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-09 01:08:50 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

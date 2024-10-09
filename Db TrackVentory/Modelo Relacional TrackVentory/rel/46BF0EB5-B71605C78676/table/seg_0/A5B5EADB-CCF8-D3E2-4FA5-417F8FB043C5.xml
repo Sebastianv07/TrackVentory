@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A5B5EADB-CCF8-D3E2-4FA5-417F8FB043C5" name="DETALLE_VENTAS">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-09 13:29:09 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_DETALLE_VENTA" id="DF377AC5-0EFF-CAF4-67DB-2E6EB08F0779">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-13 05:31:54 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_VENTA" id="C9F65000-0D91-2CCB-F12C-5FAD5825A366">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-09 13:30:10 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D0DB1B0C-6D45-D649-E1A2-F7419FB4A743" referredColumn="061F7988-68FF-0C7B-8598-41574EAB6707"/>
+</associations>
+</Column>
+<Column name="ID_INVENTARIO" id="99762903-6916-208E-13C5-E118E7A23DE2">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-13 06:07:02 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="40387C92-0CC6-C4D1-978C-D5C9EF5BE2B1" referredColumn="51A42AFD-14B3-210E-7454-1518A9EFE6EF"/>
+</associations>
+</Column>
+<Column name="CANTIDAD" id="B81E3BD4-CEB9-9E01-D2C6-A19F39309486">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-09 13:30:32 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TOTAL" id="41329F43-7415-6484-CF84-414A0C3018FA">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-09 13:30:50 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D14EF1D4-0FCB-C565-5BF3-5333253A468A" name="DETALLE_VENTAS_PK">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-09 13:30:10 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF377AC5-0EFF-CAF4-67DB-2E6EB08F0779"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="13C5580F-40EF-BD41-E237-D295D1D78996" name="FK_DETALLE_VENTAS_VENTAS">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-13 05:53:50 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9F65000-0D91-2CCB-F12C-5FAD5825A366"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BE6EA4D4-590D-EC1C-1C7A-2561AD617019" name="FK_DETALLE_VENTAS_INVENTARIOS">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-13 06:07:02 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99762903-6916-208E-13C5-E118E7A23DE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

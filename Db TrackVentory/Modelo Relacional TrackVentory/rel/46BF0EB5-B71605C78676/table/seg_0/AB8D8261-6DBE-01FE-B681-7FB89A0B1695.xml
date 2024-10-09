@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AB8D8261-6DBE-01FE-B681-7FB89A0B1695" name="COMPRAS">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-09 02:35:28 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<abbreviation>COMP</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_COMPRA" id="715E3124-CE25-8FB5-839C-59A0C48D2AE7">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-09 12:06:12 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_USUARIO" id="E1C112B9-D702-B52E-F142-6B1768315641">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-09 12:07:28 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="46E8EE59-CD21-866A-D343-682C591FD653" referredColumn="F600CF61-F2B1-9EAA-A0B9-5035E0CC526F"/>
+</associations>
+</Column>
+<Column name="FECHA" id="2132B55A-42D5-5D92-8BD8-F1B67972FE5F">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-09 12:06:59 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="73765FF0-671A-97A5-2190-DDDB01E4C8AA" name="COMPRAS_PK">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-09 12:06:12 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="715E3124-CE25-8FB5-839C-59A0C48D2AE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E55DE90F-13CE-87AF-B316-B06FBBDBD2AC" name="FK_COMPRAS_USUARIOS">
+<createdBy>Sebastian</createdBy>
+<createdTime>2024-09-13 06:14:51 UTC</createdTime>
+<ownerDesignName>Modelo Relacional TrackVentory</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1C112B9-D702-B52E-F142-6B1768315641"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
